@@ -26,13 +26,9 @@ export default async function Home() {
         <div className="p-8 border rounded-lg bg-card">
           <TelegramLogin 
             botName={process.env.NEXT_PUBLIC_TELEGRAM_BOT_NAME || ''}
-            onError={(error) => {
-              console.error('Login failed:', error)
-            }}
           />
         </div>
       )}
     </main>
   )
 }
-
