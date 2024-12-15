@@ -7,20 +7,16 @@ A simple Telegram authentication sign-in using Next.js. This project was bootstr
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/DmitriiS-dev/TelegramSignIn.git
+    ### git clone https://github.com/DmitriiS-dev/TelegramSignIn.git
 
 2. Install dependencies:
-npm install
-or
-yarn install
-or
-pnpm install
+### npm install
+### yarn install
+### pnpm install
 
 3. Run the development server:
-npm run dev
-or
-yarn dev
-or
-pnpm dev
+### npm run dev
+### yarn dev
+### pnpm dev
 
 4. Open http://localhost:3000 in your browser.
