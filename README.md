@@ -1,10 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Telegram Sign-In Project
+This is a Next.js project that integrates Telegram authentication, allowing users to sign in using their Telegram account. The project was bootstrapped with create-next-app.
 
-## Getting Started
+Project Structure
+The project is organized into the following directories:
 
-First, run the development server:
+src: Contains the source code for the application.
+app: Holds the Next.js pages and API routes.
+Getting Started
+To get started, first clone the repository and install the dependencies:
 
-```bash
+bash
+Copy code
+git clone https://github.com/DmitriiS-dev/TelegramSignIn.git
+cd TelegramSignIn
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+Then, run the development server:
+
+bash
+Copy code
 npm run dev
 # or
 yarn dev
@@ -12,25 +31,10 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+Open http://localhost:3000 in your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can start editing the page by modifying src/app/page.tsx. The page auto-updates as you edit the file.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Features
+Telegram Sign-In: Integrates with Telegram for user authentication.
+Next.js Integration: Leverages Next.js for server-side rendering and automatic page optimization.
