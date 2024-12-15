@@ -11,16 +11,16 @@ A simple Telegram authentication sign-in using Next.js. This project was bootstr
 
 2. Install dependencies:
 npm install
-# or
+or
 yarn install
-# or
+or
 pnpm install
 
 3. Run the development server:
 npm run dev
-# or
+or
 yarn dev
-# or
+or
 pnpm dev
 
 4. Open http://localhost:3000 in your browser.
